@@ -1,0 +1,517 @@
+<html
+    class="js sizes customelements history pointerevents postmessage webgl websockets cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox picture srcset webworkers"
+    lang="zxx">
+
+<head>
+    <style>
+        .gm-err-container {
+            height: 100%;
+            width: 100%;
+            display: table;
+            background-color: #e8eaed;
+            position: relative;
+            left: 0;
+            top: 0
+        }
+
+        .gm-err-content {
+            border-radius: 1px;
+            padding-top: 0;
+            padding-left: 10%;
+            padding-right: 10%;
+            position: static;
+            vertical-align: middle;
+            display: table-cell
+        }
+
+        .gm-err-content a {
+            color: #3c4043
+        }
+
+        .gm-err-icon {
+            text-align: center
+        }
+
+        .gm-err-title {
+            margin: 5px;
+            margin-bottom: 20px;
+            color: #3c4043;
+            font-family: Roboto, Arial, sans-serif;
+            text-align: center;
+            font-size: 24px
+        }
+
+        .gm-err-message {
+            margin: 5px;
+            color: #3c4043;
+            font-family: Roboto, Arial, sans-serif;
+            text-align: center;
+            font-size: 12px
+        }
+
+        .gm-err-autocomplete {
+            padding-left: 20px;
+            background-repeat: no-repeat;
+            -webkit-background-size: 15px 15px;
+            background-size: 15px 15px
+        }
+
+        sentinel {}
+    </style>
+    <style>
+        .gm-style-moc {
+            background-color: rgba(0, 0, 0, .45);
+            pointer-events: none;
+            text-align: center;
+            -webkit-transition: opacity ease-in-out;
+            -o-transition: opacity ease-in-out;
+            transition: opacity ease-in-out
+        }
+
+        .gm-style-mot {
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 22px;
+            margin: 0;
+            position: relative;
+            top: 50%;
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%)
+        }
+
+        sentinel {}
+    </style>
+    <style>
+        .gm-style img {
+            max-width: none;
+        }
+
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Photographer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/55/1/common.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/55/1/util.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/55/1/map.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/55/1/onion.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Fpreview.colorlib.com%2Ftheme%2Fjosanclick%2Fcontact.html&amp;4sAIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;7m2&amp;1e31&amp;5e0&amp;8b0&amp;callback=_xdc_._ud6k9t&amp;key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;token=100752"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps/vt?pb=!1m4!1m3!1i9!2i468!3i301!1m4!1m3!1i9!2i469!3i301!1m4!1m3!1i9!2i468!3i302!1m4!1m3!1i9!2i468!3i303!1m4!1m3!1i9!2i469!3i302!1m4!1m3!1i9!2i469!3i303!1m4!1m3!1i9!2i470!3i301!1m4!1m3!1i9!2i471!3i301!1m4!1m3!1i9!2i470!3i302!1m4!1m3!1i9!2i470!3i303!1m4!1m3!1i9!2i471!3i302!1m4!1m3!1i9!2i471!3i303!1m4!1m3!1i9!2i472!3i301!1m4!1m3!1i9!2i472!3i302!1m4!1m3!1i9!2i472!3i303!2m3!1e0!2sm!3i671412707!3m17!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcC5zOi05MHxwLmw6NTAscy5lOmwudC5mfHAuYzojY2NkZWU5!4e3!12m1!5b1&amp;callback=_xdc_._6upvdo&amp;key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;token=28585"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/55/1/controls.js"></script>
+</head>
+
+<body style="overflow: visible;">
+    <header>
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="d-flex justify-content-between flex-wrap align-items-center">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                </div>
+
+                                <div class="main-menu d-none d-lg-block text-center">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="portfolios.html">Portfolios</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="blog.html">Blog</a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog_details.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Elements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                                <div class="header-info-right d-none d-lg-block">
+                                    <ul class="header-social">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none">
+                                <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0"
+                                        class="slicknav_btn slicknav_collapsed"><span
+                                            class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span
+                                                class="slicknav_icon-bar"></span><span
+                                                class="slicknav_icon-bar"></span><span
+                                                class="slicknav_icon-bar"></span></span></a>
+                                    <ul class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true"
+                                        role="menu">
+                                        <li><a href="index.html" role="menuitem" tabindex="-1">Home</a></li>
+                                        <li><a href="portfolios.html" role="menuitem" tabindex="-1">Portfolios</a></li>
+                                        <li><a href="services.html" role="menuitem" tabindex="-1">Services</a></li>
+                                        <li><a href="about.html" role="menuitem" tabindex="-1">About</a></li>
+                                        <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem"
+                                                aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"><a
+                                                    href="blog.html" tabindex="-1">Blog</a>
+                                                <span class="slicknav_arrow">+</span></a>
+                                            <ul class="submenu slicknav_hidden" role="menu" style="display: none;"
+                                                aria-hidden="true">
+                                                <li><a href="blog.html" role="menuitem" tabindex="-1">Blog</a></li>
+                                                <li><a href="blog_details.html" role="menuitem" tabindex="-1">Blog
+                                                        Details</a></li>
+                                                <li><a href="elements.html" role="menuitem" tabindex="-1">Elements</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div class="slider-area">
+            <div class="single-slider slider-bg8 hero-overly slider-height2 d-flex align-items-end">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxl-12">
+
+                            <div class="hero-caption hero-caption2 text-center">
+                                <p>Explore</p>
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="d-none d-sm-block mb-5 pb-4">
+                    <div id="map" style="height: 480px; position: relative; overflow: hidden;">
+                        <div
+                            style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
+                            <div class="gm-err-container">
+                                <div class="gm-err-content">
+                                    <div class="gm-err-icon"><img
+                                            src="https://maps.gstatic.com/mapfiles/api-3/images/icon_error.png" alt=""
+                                            draggable="false" style="user-select: none;"></div>
+                                    <div class="gm-err-title">Oops! Something went wrong.</div>
+                                    <div class="gm-err-message">This page didn't load Google Maps correctly. See the
+                                        JavaScript console for technical details.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        function initMap() {
+                            var uluru = {
+                                lat: -25.363,
+                                lng: 131.044
+                            };
+                            var grayStyles = [{
+                                featureType: "all",
+                                stylers: [{
+                                    saturation: -90
+                                },
+                                {
+                                    lightness: 50
+                                }
+                                ]
+                            },
+                            {
+                                elementType: 'labels.text.fill',
+                                stylers: [{
+                                    color: '#ccdee9'
+                                }]
+                            }
+                            ];
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                center: {
+                                    lat: -31.197,
+                                    lng: 150.744
+                                },
+                                zoom: 9,
+                                styles: grayStyles,
+                                scrollwheel: false
+                            });
+                        }
+                    </script>
+                    <script
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
+                        </script>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="contact-title">Get in Touch</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <form class="form-contact contact_form" action="contact_process.php" method="post"
+                            id="contactForm" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control w-100" name="message" id="message" cols="30"
+                                            rows="9" onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter Message'"
+                                            placeholder=" Enter Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="name" id="name" type="text"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input class="form-control valid" name="email" id="email" type="email"
+                                            onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input class="form-control" name="subject" id="subject" type="text"
+                                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
+                                            placeholder="Enter Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-home"></i></span>
+                            <div class="media-body">
+                                <h3>Buttonwood, California.</h3>
+                                <p>Rosemead, CA 91770</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                            <div class="media-body">
+                                <h3>+1 253 565 2365</h3>
+                                <p>Mon to Fri 9am to 6pm</p>
+                            </div>
+                        </div>
+                        <div class="media contact-info">
+                            <span class="contact-info__icon"><i class="ti-email"></i></span>
+                            <div class="media-body">
+                                <h3>support@colorlib.com</h3>
+                                <p>Send us your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-area footer-padding">
+            <div class="footer-wrapper ">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+
+                                    <div class="footer-logo mb-25">
+                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                                accusantium doloremque laudantium, totam rem aperiam.</p>
+                                        </div>
+                                    </div>
+
+                                    <ul class="footer-social">
+                                        <li><a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li> <a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offset-xl-1 col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Navigation</h4>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Contact</h4>
+                                    <ul>
+                                        <li><a href="#">87/A, Green lane, CA 6732</a></li>
+                                        <li><a href="#">Real State</a></li>
+                                        <li class="number2"><a href="#">info@josanclick.com</a></li>
+                                        <li class="number"><a href="#">+10 236 327 3782</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Subscribe Newsletter</h4>
+                                </div>
+
+                                <div class="footer-form">
+                                    <div id="mc_embed_signup">
+                                        <form target="_blank"
+                                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                            method="get" class="subscribe_form relative mail_part" novalidate="true">
+                                            <input type="email" name="EMAIL" id="newsletter-form-email"
+                                                placeholder="  Enter your email">
+                                            <div class="form-icon">
+                                                <button type="submit" name="submit" id="newsletter-submit"
+                                                    class="email_icon newsletter-submit button-contactForm">
+                                                    Subscribe
+                                                </button>
+                                            </div>
+                                            <div class="mt-10 info"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom-area">
+                    <div class="container">
+                        <div class="footer-border">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-xl-12 ">
+                                    <div class="footer-copy-right text-center">
+                                        <p>Copyright ©
+                                            <script>document.write(new Date().getFullYear());</script>2023 All rights
+                                            reserved | This template is made with <i class="fa fa-heart color-danger"
+                                                aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                                target="_blank" rel="nofollow noopener">Colorlib</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="back-top">
+        <a class="wrapper" title="Go to Top" href="#">
+            <div class="arrows-container">
+                <div class="arrow arrow-one">
+                </div>
+                <div class="arrow arrow-two">
+                </div>
+            </div>
+        </a>
+    </div>
+
+
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+    <script src="./assets/js/hover-direction-snake.min.js"></script>
+
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer=""
+        src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+        integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+        data-cf-beacon="{&quot;rayId&quot;:&quot;828c21efd9d63739&quot;,&quot;version&quot;:&quot;2023.10.0&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;}"
+        crossorigin="anonymous"></script>
+
+    <div
+        style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;">
+        <span
+            style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;">BESbswy</span>
+    </div>
+</body>
+
+</html>
