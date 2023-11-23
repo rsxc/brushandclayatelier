@@ -1,0 +1,21 @@
+.logo img {
+    padding: 20px;
+    height: 10vh;
+    width: 20vw;
+}
+
+.footer-logo img {
+    height: 10vh;
+    width: 30vw;
+}
+
+.blog-img img {
+    height: 50vh;
+    width: 10vw;
+}
+
+.single-instagram {
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
